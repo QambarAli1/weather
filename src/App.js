@@ -46,10 +46,7 @@ function App() {
     <div className='app-main'>
       <div>
         <h1>Weather App</h1>
-        <input type="text" placeholder='City' id='city' />
-        <button onClick={() => {
-          setCity(document.getElementById('city').value)
-        }} > Search </button>
+        <br />
         {
           (weather !== null) ?
             <>
